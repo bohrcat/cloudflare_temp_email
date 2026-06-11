@@ -1,0 +1,14 @@
+name = "cloudflare-temp-email"
+main = "src/index.ts"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+keep_vars = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cloudflare-temp-email"
+database_id = "ed5ce90f-22fc-4bcc-b729-6032fafadb1d"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "4ff6523644134dccb4c65a812675f281"
